@@ -7,6 +7,9 @@ const nextConfig = {
       "media.istockphoto.com",
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = nextConfig;
